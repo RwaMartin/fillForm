@@ -1,0 +1,108 @@
+<form action="">
+<!-- Details-->
+    <fieldset class="fil1">
+        
+           <legend><span>1</span> Your Details</legend>
+
+           <!-- name-->
+        <div>
+           <label for="name"> Name:
+            <input id="name" type="text" placeholder="Name" required autofocus>
+           </label>
+         
+           <!-- email-->
+           <label for="email"> Email:
+               <input id="email" type="email" placeholder="Email" required>
+           </label>
+       </div>
+    </fieldset>
+
+    <!--Destination & Departure-->
+
+    <fieldset class="fil2">
+        <legend><span>2</span> Destination & Departure</legend>
+        
+        <div><!-- date -->
+            <label for="departure">Departure:</label>
+            <input id="departure" type="date">
+            <label for="return">Return:</label>
+            <input id="return" type="date">
+    
+            <!-- select for leaving -->
+            <label for="leaving">Leaving From:</label>
+            <select name="leaving" id="leaving">
+                <option value="Kigali" selected>Kigali</option>
+                <option value="Losangeles">Losangeles</option>
+                <option value="Paris">Paris</option>
+                <option value="brussell">brussell</option>
+                <option value="London">London</option>
+                <option value="Kampala">Kampala</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Bujumbura">Bujumbura</option>
+                <option value="Darsalam">Darsalam</option>
+                <option value="Barmingham">Barmingham</option>
+                <option value="CapeTown">CapeTown</option>
+            </select>
+    
+            <!-- select for GoingTo-->
+    
+            <label for="goingto">GoingTo:</label>
+            <select name="goingto" id="goingto">
+                <option value="Kigali" selected>Kigali</option>
+                <option value="Losangeles">Losangeles</option>
+                <option value="Paris">Paris</option>
+                <option value="brussell">brussell</option>
+                <option value="London">London</option>
+                <option value="Kampala">Kampala</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Bujumbura">Bujumbura</option>
+                <option value="Darsalam">Darsalam</option>
+                <option value="Barmingham">Barmingham</option>
+                <option value="CapeTown">CapeTown</option>
+            </select>
+        </div>  
+        
+    </fieldset>
+
+    <!--Feedbaack-->
+    <fieldset class="fil3">
+        <legend><span>3</span> FeedBack</legend>
+        <div> <!--hear about us-->
+
+            <label for="hear">How did you hear about us?</label>
+            <select name="hear" id="hear">
+              <option value="Google" selected>Google</option>
+              <option value="Facebook">Facebook</option>
+              <option value="WhatsAp">WhatsAp</option>
+              <option value="Instagram">Instagramk</option>
+              <option value="Twitter">Twitter</option>
+              <option value="YouTube">YouTube</option>
+              <option value="Others">Others</option>
+            </select>
+    
+            <!--our service-->
+            
+            <p>Would you use our service again?</p>
+    
+            <label for="yes">Yes:</label>
+            <input type="radio" name="yes" id="yes">
+            <label for="no">No:</label>
+            <input type="radio" name="no" id="no">
+            <label for="maybe">Maybe:</label>
+            <input type="radio" name="maybe" id="maybe">
+             <br><br>
+    
+             <!--comment-->
+            <label for="comment">Any comments?</label>
+            <textarea name="comment" id="comment" cols="20" rows="5"></textarea>
+            <br><br>
+            
+            <!--join-->
+            <label for="join">Join mail list?</label>
+            <input type="checkbox" name="join" id="join">
+        </div>
+       
+    </fieldset>
+
+
+</form>
